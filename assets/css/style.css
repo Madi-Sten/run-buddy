@@ -9,6 +9,7 @@ body{
     font-family: Helvetica, Arial, sans-serif;
 }
 
+
 /* apply styles to <header> */
 
 header{
@@ -44,6 +45,11 @@ header nav ul li a{
     font-size: 22px;
 }
 
+/* end of header css */
+
+
+
+/* footer css */
 
 footer{
     background: #fce138;
@@ -68,3 +74,30 @@ footer a{
     color: #024e76;
 }
 
+/* end of footer css */
+
+
+section{
+    padding: 60px;
+}
+
+
+/* hero class css */
+.hero {
+    background-image: url("../images/hero-bg.jpg");
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+}
+/* end of hero class css */
+
+
+/* hero-form css */
+.hero-form{
+    color: #024e76;
+    background-color: #fce138;
+    padding: 20px;
+    width: 500px;
+    border: solid 3px #024e76;
+}
+/* end of hero-form css */
