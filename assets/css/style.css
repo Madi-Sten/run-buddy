@@ -88,6 +88,7 @@ section{
     height: 600px;
     background-size: cover;
     background-position: center;
+    position: relative;
 }
 /* end of hero class css */
 
@@ -99,5 +100,25 @@ section{
     padding: 20px;
     width: 500px;
     border: solid 3px #024e76;
+    position: absolute;
+    bottom: 120px;
+    right: 140px;
 }
 /* end of hero-form css */
+
+
+/* hero-form h3 css */
+.hero-form h3 {
+    font-size: 24px;
+    margin: 0px;
+}
+/* end of hero-form h3 css */
+
+
+/* hero-form p css */
+
+.hero-form p {
+    margin: 5px 0 15px 0;
+}
+
+/* end of hero-form p css */
