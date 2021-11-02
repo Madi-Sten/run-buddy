@@ -9,8 +9,11 @@ body{
     font-family: Helvetica, Arial, sans-serif;
 }
 
+section{
+    padding: 60px;
+}
 
-/* apply styles to <header> */
+/* --- apply styles to <header> --- */
 
 header{
     padding: 20px 35px;
@@ -45,11 +48,11 @@ header nav ul li a{
     font-size: 22px;
 }
 
-/* end of header css */
+/* --- end of header css --- */
 
 
 
-/* footer css */
+/* --- footer css --- */
 
 footer{
     background: #fce138;
@@ -74,15 +77,13 @@ footer a{
     color: #024e76;
 }
 
-/* end of footer css */
+/* --- end of footer css --- */
 
 
-section{
-    padding: 60px;
-}
 
 
-/* hero class css */
+
+/* --- hero class css --- */
 .hero {
     background-image: url("../images/hero-bg.jpg");
     height: 600px;
@@ -90,10 +91,7 @@ section{
     background-position: center;
     position: relative;
 }
-/* end of hero class css */
 
-
-/* hero-form css */
 .hero-form{
     color: #024e76;
     background-color: #fce138;
@@ -104,27 +102,16 @@ section{
     bottom: 120px;
     right: 140px;
 }
-/* end of hero-form css */
 
-
-/* hero-form h3 css */
 .hero-form h3 {
     font-size: 24px;
     margin: 0px;
 }
-/* end of hero-form h3 css */
-
-
-/* hero-form p css */
 
 .hero-form p {
     margin: 5px 0 15px 0;
 }
 
-/* end of hero-form p css */
-
-
-/* form-input css */
 .form-input {
     border: 1px solid #024e76;
     display: block;
@@ -134,15 +121,11 @@ section{
     width: 100%;
     margin-bottom: 15px;
 }
-/* end of form-input css */
 
-/* form label css */
 .hero-form label {
     margin: 0 5px;
 }
-/* end of form label css */
 
-/* hero-form button css */
 .hero-form button {
     background-color: #024e76;
     color: #fce138;
@@ -151,16 +134,20 @@ section{
     padding: 10px 20px;
 }
 
+/* --- end of hero css --- */
+
+
+
 .intro{
     text-align: center;
 }
 
-.intro h2{
+.section-title{
     font-size: 55px;
     color: #024e76;
     margin-bottom: 35px;
     padding: 0 100px 20px 100px;
-    border-bottom: 3px solid #fce138;
+    border-bottom: 3px solid;
     display: inline-block;
 }
 
@@ -171,3 +158,40 @@ section{
     font-size: 20px;
     margin: 0 auto;
 }
+
+.primary-border{
+    border-color: #fce138;
+}
+
+.secondary-border{
+    border-color: #39a6b2;
+}
+
+.steps{
+    text-align: center;
+    background: #fce138;
+}
+
+.steps div{
+    margin-bottom: 80px;
+}
+
+.steps img{
+    width: 15%;
+    margin: 10px 0;
+}
+
+.steps h3{
+    color: #024e76;
+    font-size: 46px;
+    margin-top: 10px;
+}
+
+.steps p {
+    color: #39a6b2;
+    font-size: 23px;
+  }
+
+  .steps span {
+    font-size: 38px;
+  }
